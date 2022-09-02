@@ -1,0 +1,30 @@
+{
+  "name": "bekx-solidity",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Paul Renshaw <paul@renshaw.dev>",
+  "scripts": {
+    "build": "hardhat compile",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-etherscan": "^2.1.6",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^4.4.0",
+    "@typechain/ethers-v5": "^7.1.2",
+    "@typechain/hardhat": "^2.3.0",
+    "@types/jest": "^27.0.2",
+    "@types/node": "^16.10.2",
+    "base64-sol": "^1.1.0",
+    "dotenv": "^16.0.0",
+    "erc721a": "^4.2.0",
+    "ethers": "^5.5.4",
+    "hardhat": "^2.4.1",
+    "jest": "^27.2.4",
+    "ts-jest": "^27.0.5",
+    "ts-node": "^10.2.1",
+    "typechain": "^5.1.2",
+    "typescript": "^4.4.3"
+  }
+}
